@@ -54,13 +54,21 @@ void BattleShip::StandardView::showPlayersBoard(const Player& player){
 
 void BattleShip::StandardView::printBoard(const std::vector<std::string>& board)
 {
-    cout << " ";
-    for(int i = 0; i < board[i].size();i++)
+    cout << "  ";
+    for(int i = 0; i < board[i].size(); i++)
     {
         cout << i << " ";
     }
     cout << endl;
-    for(int r = 0; r < board.size(); i++)
+    for(int r = 0; r < board.size(); r++)
+    {
+        cout << r << " ";
+        for(int c = 0; c < board[c].size(); c++)
+        {
+            cout <<  board[r][c] << " ";
+        }
+        cout << endl;
+    }
 }
 /*
 std::string BattleShip::StandardView::getPlayerName(int i){

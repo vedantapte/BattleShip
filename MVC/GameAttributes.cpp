@@ -15,22 +15,22 @@ BattleShip::GameAttributes::GameAttributes(int numRows, int numCols): numRows(nu
 }
 
 BattleShip::GameAttributes::GameAttributes(std::istream& in) {
-    in >> numRows;
-    in >> numCols;
-    int numShips;
-    in >> numShips;
-    for(int s = 0; s < numShips; s++)
-    {
-        char ship;
-        int size;
-        in >> ship;
-        in >> size;
+//    in >> numRows;
+//    in >> numCols;
+//    int numShips;
+//    in >> numShips;
+//    for(int s = 0; s < numShips; s++)
+//    {
+//        char ship;
+//        int size;
+//        in >> ship;
+//        in >> size;
+//
+//        shipAttributes[ship] = size;
+//        cout << "Ship: " << ship << ", Size: " << size << endl; //comment out
+//    }
 
-        shipAttributes[ship] = size;
-        cout << "Ship: " << ship << ", Size: " << size << endl; //comment out
-    }
 
-   /*
     in >> numRows;
     in >> numCols;
     int ships;
@@ -44,7 +44,7 @@ BattleShip::GameAttributes::GameAttributes(std::istream& in) {
         
         shipAttributes.insert(ship);
     }
-    */
+
 }
 
 int BattleShip::GameAttributes::getNumRows() const{
