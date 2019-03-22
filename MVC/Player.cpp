@@ -9,15 +9,17 @@
 
 int BattleShip::Player::num_instances = 0;
 
-BattleShip::Player::Player(const GameAttributes& gameAttributes, View& view): board(Board(0,0)), view(view), id(num_instances) {}
+BattleShip::Player::Player(const GameAttributes& gameAttributes, View& view): id(num_instances), view(view), board(Board(0,0)) {
+    
+}
 
 const std::string& BattleShip::Player::getName() const {
     return name;
 }
 
-void BattleShip::Player::setName(const std::string& name) {
-    this->name;
-}
+// void BattleShip::Player::setName(const std::string& name) {
+//     this->name;
+// }
 
 const BattleShip::Board& BattleShip::Player::getBoard() const {
     return board;
@@ -44,9 +46,10 @@ BattleShip::AttackResult BattleShip::Player::fireAt(int row, int col) {
 
         }
         else{
-            AttackResult(false, false, board.boardState[row][col].contents);
+            return AttackResult(false, false, board.boardState[row][col].contents);
         }
     }
+    return AttackResult(false, false, board.boardState[row][col].contents);
 }
 
 
@@ -58,9 +61,9 @@ const BattleShip::Player& BattleShip::Player::getOpponent() const {
     return *opponent;
 }
 
-void BattleShip::Player::setOpponent(Player& opponent) {
-    this->opponent;
-}
+// void BattleShip::Player::setOpponent(Player& opponent) {
+//     this->opponent;
+// }
 
 
 bool BattleShip::Player::hit(char shipChar) {
@@ -82,6 +85,7 @@ bool BattleShip::Player::hit(char shipChar) {
             }
         }
     }
+    return false;
 }
 
 bool BattleShip::Player::allShipsSunk() const{
@@ -91,7 +95,7 @@ bool BattleShip::Player::allShipsSunk() const{
         if(ship.second == 0) {
             count--;
         }
-        if(not count > 0) {
+        if(!(count > 0)) {
             return true;
         }
     }

@@ -7,16 +7,18 @@
 #include "Player.h"
 #include "View.h"
 #include "GameAttributes.h"
+using namespace std;
 namespace BattleShip {
 class Move;
 
 class HumanPlayer : public Player {
  public:
-  HumanPlayer(const GameAttributes& gameAttributes, View& view);
+  HumanPlayer(const GameAttributes& gameAttributes, View& view); //done
   virtual std::unique_ptr<BattleShip::Move> getMove() override;
-  virtual void placeShips() override;
-  virtual void initializeName() override;
+  virtual void placeShips() override; //done
+  virtual void initializeName() override; //done
  protected:
+    string name;
 };
 }
 

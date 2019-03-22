@@ -104,6 +104,7 @@ MVC/CMakeFiles/BattleshipMVC.dir/HumanPlayer.cpp.o
  /Users/vedantapte/Desktop/BattleShip/MVC/PlayerConfiguration.h
  /Users/vedantapte/Desktop/BattleShip/MVC/ShipPlacement.h
  /Users/vedantapte/Desktop/BattleShip/MVC/View.h
+ /Users/vedantapte/Desktop/BattleShip/MVC/board.h
 MVC/CMakeFiles/BattleshipMVC.dir/HuntDestroyAI.cpp.o
  /Users/vedantapte/Desktop/BattleShip/MVC/AiPlayer.h
  /Users/vedantapte/Desktop/BattleShip/MVC/Attack.h

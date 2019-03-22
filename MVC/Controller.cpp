@@ -14,16 +14,3 @@
 #include "CheatingAI.h"
 #include "RandomAI.h"
 #include "HuntDestroyAI.h"
-
-BattleShip::Controller::Controller() {
-
-}
-
-void BattleShip::Controller::setupGame(const std::string& GameConfigurationFile, int seed) {
-    std::ifstream file(GameConfigurationFile);
-    setupGame();
-}
-
-void BattleShip::Controller::setupGame(const std::string& GameConfigurationFile) {
-    
-}
