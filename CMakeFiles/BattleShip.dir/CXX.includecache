@@ -9,6 +9,10 @@
 /Users/vedantapte/Desktop/BattleShip/main.cpp
 Controller.h
 /Users/vedantapte/Desktop/BattleShip/Controller.h
+Board.h
+/Users/vedantapte/Desktop/BattleShip/Board.h
+GameAttributes.h
+/Users/vedantapte/Desktop/BattleShip/GameAttributes.h
 iostream
 -
 vector

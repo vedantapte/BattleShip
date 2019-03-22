@@ -38,6 +38,12 @@ Player.h
 GameAttributes.h
 /Users/vedantapte/Desktop/BattleShip/MVC/GameAttributes.h
 
+/Users/vedantapte/Desktop/BattleShip/MVC/Move.cpp
+Move.h
+/Users/vedantapte/Desktop/BattleShip/MVC/Move.h
+iostream
+/Users/vedantapte/Desktop/BattleShip/MVC/iostream
+
 /Users/vedantapte/Desktop/BattleShip/MVC/Move.h
 Player.h
 /Users/vedantapte/Desktop/BattleShip/MVC/Player.h
@@ -45,16 +51,6 @@ Model.h
 /Users/vedantapte/Desktop/BattleShip/MVC/Model.h
 View.h
 /Users/vedantapte/Desktop/BattleShip/MVC/View.h
-
-/Users/vedantapte/Desktop/BattleShip/MVC/Player.cpp
-Player.h
-/Users/vedantapte/Desktop/BattleShip/MVC/Player.h
-Board.h
-/Users/vedantapte/Desktop/BattleShip/MVC/Board.h
-GameAttributes.h
-/Users/vedantapte/Desktop/BattleShip/MVC/GameAttributes.h
-Cell.h
-/Users/vedantapte/Desktop/BattleShip/MVC/Cell.h
 
 /Users/vedantapte/Desktop/BattleShip/MVC/Player.h
 functional

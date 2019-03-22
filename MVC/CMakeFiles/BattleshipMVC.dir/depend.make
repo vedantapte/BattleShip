@@ -103,7 +103,6 @@ MVC/CMakeFiles/BattleshipMVC.dir/HumanPlayer.cpp.o: MVC/Player.h
 MVC/CMakeFiles/BattleshipMVC.dir/HumanPlayer.cpp.o: MVC/PlayerConfiguration.h
 MVC/CMakeFiles/BattleshipMVC.dir/HumanPlayer.cpp.o: MVC/ShipPlacement.h
 MVC/CMakeFiles/BattleshipMVC.dir/HumanPlayer.cpp.o: MVC/View.h
-MVC/CMakeFiles/BattleshipMVC.dir/HumanPlayer.cpp.o: MVC/board.h
 
 MVC/CMakeFiles/BattleshipMVC.dir/HuntDestroyAI.cpp.o: MVC/AiPlayer.h
 MVC/CMakeFiles/BattleshipMVC.dir/HuntDestroyAI.cpp.o: MVC/Attack.h
