@@ -21,6 +21,7 @@ class GameAttributes {
   int getShipSize(const char ShipChar) const;
   const std::map<char, int>& getShipAttributes() const;
 
+  //std::map<char, int> shipAttributes;
  private:
   int numRows, numCols;
   std::map<char, int> shipAttributes;
