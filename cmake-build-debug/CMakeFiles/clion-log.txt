@@ -1,0 +1,4 @@
+Cannot generate into /Users/RafaJr/Documents/C++Projects/Battleship
+It is already used for project /Users/vedantapte/Desktop/BattleShip
+
+Please either delete it manually or select another generation directory

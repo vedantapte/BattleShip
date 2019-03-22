@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BattleshipMVC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BattleshipMVC">
+				<Option output="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/libBattleshipMVC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEFAULT_CONFIGURATION_LOCATION=&quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/GameConfigurations/DefaultConfiguration.txt&quot;"/>
+					<Add directory="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 BattleshipMVC"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BattleshipMVC/fast">
+				<Option output="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/libBattleshipMVC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEFAULT_CONFIGURATION_LOCATION=&quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/GameConfigurations/DefaultConfiguration.txt&quot;"/>
+					<Add directory="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 BattleshipMVC/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/AiPlayer.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/AiPlayer.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Attack.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Attack.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/AttackResult.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/AttackResult.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Board.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Board.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Cell.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Cell.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/CheatingAI.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/CheatingAI.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Controller.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Controller.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/EndGame.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/EndGame.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/GameAttributes.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/GameAttributes.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/HumanPlayer.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/HumanPlayer.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/HuntDestroyAI.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/HuntDestroyAI.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Model.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Model.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Move.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Move.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Player.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Player.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/PlayerConfiguration.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/PlayerConfiguration.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/RandomAI.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/RandomAI.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/ShipPlacement.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/ShipPlacement.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/StandardView.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/StandardView.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Utility.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Utility.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/View.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/View.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,3 @@
+/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/cmake-build-debug/CMakeFiles/BattleshipMVC.dir

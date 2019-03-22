@@ -28,6 +28,7 @@ class Board {
   Cell& at(int i, int j); //done
   const Cell& at(int i, int j) const; //done
 
+  std::vector<std::vector<Cell>> boardState;
 
  protected:
   bool inBounds(const ShipPlacement& shipPlacement) const; //done
@@ -35,8 +36,9 @@ class Board {
   bool between(int value, int low, int high) const; //done
   bool spacesAreEmpty(const ShipPlacement& shipPlacement) const; //done
 
+
   //members
-  std::vector<std::vector<Cell>> boardState;
+
   int numRows;
   int numCols;
   const char blankChar;
