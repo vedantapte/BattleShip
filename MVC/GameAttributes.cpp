@@ -5,6 +5,7 @@
 #include "Utility.h"
 #include "GameAttributes.h"
 
+using namespace std;
 BattleShip::GameAttributes::GameAttributes(): numRows(0), numCols(0) {
 
 }
@@ -14,6 +15,22 @@ BattleShip::GameAttributes::GameAttributes(int numRows, int numCols): numRows(nu
 }
 
 BattleShip::GameAttributes::GameAttributes(std::istream& in) {
+    in >> numRows;
+    in >> numCols;
+    int numShips;
+    in >> numShips;
+    for(int s = 0; s < numShips; i++)
+    {
+        char ship;
+        int size;
+        in >> ship;
+        in >> size;
+
+        shipAttributes[ship] = size;
+        cout << "Ship: " << ship << ", Size: " << size << endl;
+    }
+
+   /*
     in >> numRows;
     in >> numCols;
     int ships;
@@ -27,6 +44,7 @@ BattleShip::GameAttributes::GameAttributes(std::istream& in) {
         
         shipAttributes.insert(ship);
     }
+    */
 }
 
 int BattleShip::GameAttributes::getNumRows() const{
