@@ -4,7 +4,7 @@
 
 #include "Attack.h"
 
-BattleShip::Attack::Attack(BattleShip::Player& attacker, int row, int col): row(row), col(col) {
+BattleShip::Attack::Attack(BattleShip::Player& attacker, int row, int col): Move(attacker), row(row), col(col) {
 
 }
 

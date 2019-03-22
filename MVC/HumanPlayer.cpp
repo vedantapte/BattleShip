@@ -7,7 +7,7 @@
 #include "HumanPlayer.h"
 #include "ShipPlacement.h"
 #include "Attack.h"
-#include "board.h"
+#include "Board.h"
 using namespace std;
 BattleShip::HumanPlayer::HumanPlayer(const GameAttributes& gameAttributes, View& view): Player(gameAttributes, view)  {
 
