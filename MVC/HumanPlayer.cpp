@@ -59,3 +59,9 @@ void BattleShip::HumanPlayer::placeShips(){
     }
 
 }
+
+/*
+std::unique_ptr <BattleShip::Move> BattleShip::HumanPlayer::getMove() {
+    
+}
+*/

@@ -15,10 +15,14 @@ GameAttributes.h
 /Users/vedantapte/Desktop/BattleShip/GameAttributes.h
 iostream
 -
+fstream
+-
 vector
 -
 algorithm
 -
+StandardView.h
+/Users/vedantapte/Desktop/BattleShip/StandardView.h
 
 MVC/./AttackResult.h
 
@@ -97,6 +101,16 @@ MVC/./AttackResult.h
 MVC/./PlayerConfiguration.h
 
 MVC/./ShipPlacement.h
+
+MVC/./StandardView.h
+iostream
+-
+utility
+-
+PlayerConfiguration.h
+MVC/./PlayerConfiguration.h
+View.h
+MVC/./View.h
 
 MVC/./View.h
 unordered_map

@@ -18,3 +18,9 @@ void BattleShip::Move::enact(Model& model, View& view) {
 
     moveMaker.fireAt(row, col);
 }
+
+/*
+bool BattleShip::Move::isValid() const {
+
+}
+*/

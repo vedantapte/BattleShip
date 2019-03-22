@@ -11,7 +11,7 @@ class EndGame : public Move{
  public:
   EndGame(Player& moveMaker);
   virtual void enact(Model& model, View& view) override;
-  virtual bool isValid() const override;
+  //virtual bool isValid() const override;
 };
 }
 

@@ -12,5 +12,6 @@ CMakeFiles/BattleShip.dir/main.cpp.o: MVC/./Move.h
 CMakeFiles/BattleShip.dir/main.cpp.o: MVC/./Player.h
 CMakeFiles/BattleShip.dir/main.cpp.o: MVC/./PlayerConfiguration.h
 CMakeFiles/BattleShip.dir/main.cpp.o: MVC/./ShipPlacement.h
+CMakeFiles/BattleShip.dir/main.cpp.o: MVC/./StandardView.h
 CMakeFiles/BattleShip.dir/main.cpp.o: MVC/./View.h
 

@@ -13,4 +13,5 @@ CMakeFiles/BattleShip.dir/main.cpp.o
  MVC/./Player.h
  MVC/./PlayerConfiguration.h
  MVC/./ShipPlacement.h
+ MVC/./StandardView.h
  MVC/./View.h

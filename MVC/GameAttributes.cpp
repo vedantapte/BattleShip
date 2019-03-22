@@ -19,7 +19,7 @@ BattleShip::GameAttributes::GameAttributes(std::istream& in) {
     in >> numCols;
     int numShips;
     in >> numShips;
-    for(int s = 0; s < numShips; i++)
+    for(int s = 0; s < numShips; s++)
     {
         char ship;
         int size;
@@ -27,7 +27,7 @@ BattleShip::GameAttributes::GameAttributes(std::istream& in) {
         in >> size;
 
         shipAttributes[ship] = size;
-        cout << "Ship: " << ship << ", Size: " << size << endl;
+        cout << "Ship: " << ship << ", Size: " << size << endl; //comment out
     }
 
    /*

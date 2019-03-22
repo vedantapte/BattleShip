@@ -36,7 +36,7 @@ const int BattleShip::Player::getId() const {
 
 BattleShip::AttackResult BattleShip::Player::fireAt(int row, int col) {
 
-    if (not board.boardState[row][col].HasBeenFiredAt())
+    if (!board.boardState[row][col].HasBeenFiredAt())
     {
         board.boardState[row][col].setHasBeenFiredAt(true);
         if(board.boardState[row][col].containsShip())

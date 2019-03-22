@@ -14,7 +14,7 @@ class Move;
 class HumanPlayer : public Player {
  public:
   HumanPlayer(const GameAttributes& gameAttributes, View& view); //done
-  virtual std::unique_ptr<BattleShip::Move> getMove() override;
+  virtual std::unique_ptr<BattleShip::Move> getMove() override; 
   virtual void placeShips() override; //done
   virtual void initializeName() override; //done
  protected:
