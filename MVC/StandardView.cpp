@@ -71,10 +71,17 @@ void BattleShip::StandardView::showPlayersBoard(const Player& player){
     player.getBoard().getVisibleVersion();
 }
 
+<<<<<<< HEAD
 void BattleShip::StandardView::printBoard(const std::vector<std::string>& board) {
 
     cout << "  ";
     for(int i = 0; i < board.size(); i++)
+=======
+void BattleShip::StandardView::printBoard(const std::vector<std::string>& board)
+{
+    cout << "  ";
+    for(int i = 0; i < board[i].size(); i++)
+>>>>>>> 7f3c5e5c5a44f4eac63909bcd65c2b17934dcf2f
     {
       cout << i << " ";
      }
@@ -88,6 +95,19 @@ void BattleShip::StandardView::printBoard(const std::vector<std::string>& board)
       }
      cout << endl;
     }
+<<<<<<< HEAD
+=======
+    cout << endl;
+    for(int r = 0; r < board.size(); r++)
+    {
+        cout << r << " ";
+        for(int c = 0; c < board[c].size(); c++)
+        {
+            cout <<  board[r][c] << " ";
+        }
+        cout << endl;
+    }
+>>>>>>> 7f3c5e5c5a44f4eac63909bcd65c2b17934dcf2f
 }
 
 void BattleShip::StandardView::printBoardAsVisible(const Board& board) {

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/GameAttributes.cpp
+utility
+-
+Utility.h
+/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Utility.h
+GameAttributes.h
+/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/GameAttributes.h
+
+/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/GameAttributes.h
+istream
+-
+map
+-
+
+/Users/RafaJr/Documents/C++Projects/BattleShip/MVC/Utility.h
+algorithm
+-
+iostream
+-
+stdexcept
+-
+random
+-
+
