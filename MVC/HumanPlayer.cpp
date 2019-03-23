@@ -15,7 +15,7 @@ BattleShip::HumanPlayer::HumanPlayer(const GameAttributes& gameAttributes, View&
 
 void BattleShip::HumanPlayer::initializeName()
 {
-    cout << "Player /1/ please enter your name:" << endl;
+    cout << " please enter your name:" << endl;
     cin >> name;
 }
 

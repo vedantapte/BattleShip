@@ -183,6 +183,7 @@ MVC/CMakeFiles/BattleshipMVC.dir/StandardView.cpp.o: MVC/AttackResult.h
 MVC/CMakeFiles/BattleshipMVC.dir/StandardView.cpp.o: MVC/Board.h
 MVC/CMakeFiles/BattleshipMVC.dir/StandardView.cpp.o: MVC/Cell.h
 MVC/CMakeFiles/BattleshipMVC.dir/StandardView.cpp.o: MVC/GameAttributes.h
+MVC/CMakeFiles/BattleshipMVC.dir/StandardView.cpp.o: MVC/HumanPlayer.h
 MVC/CMakeFiles/BattleshipMVC.dir/StandardView.cpp.o: MVC/Model.h
 MVC/CMakeFiles/BattleshipMVC.dir/StandardView.cpp.o: MVC/Move.h
 MVC/CMakeFiles/BattleshipMVC.dir/StandardView.cpp.o: MVC/Player.h

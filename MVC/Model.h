@@ -37,9 +37,10 @@ class Model {
   Player& getWinner();
 
   void SetOpponents();
+  std::vector<std::unique_ptr<Player>> players;
  protected:
   GameAttributes gameAttributes;
-  std::vector<std::unique_ptr<Player>> players;
+  //std::vector<std::unique_ptr<Player>> players;
   int playerTurn;
   bool forcedGameOver;
 };

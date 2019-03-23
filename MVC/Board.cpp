@@ -2,14 +2,34 @@
 // Created by mfbut on 3/10/2019.
 //
 
-#include "Board.h"                                                                                                                                      
+#include "Board.h"  
+                                                                                                                                   
+using namespace std;
 
 BattleShip::Board::Board(int numRows, int numCols, char blankChar): numRows(numRows), numCols(numCols), blankChar(blankChar) {
-
+  for(int row = 0; row < numRows; row++)
+  {
+    vector<Cell> cellVec;
+    for(int col = 0; col < numCols; col++)
+    {
+      Cell cell = Cell(blankChar);
+      cellVec.push_back(cell);
+    }
+    boardState.push_back(cellVec);
+  }
 }
 
 BattleShip::Board::Board(int numRows, int numCols): numRows(numRows), numCols(numCols), blankChar('*') {
-
+  for(int row = 0; row < numRows; row++)
+  {
+    vector<Cell> cellVec;
+    for(int col = 0; col < numCols; col++)
+    {
+      Cell cell = Cell('*');
+      cellVec.push_back(cell);
+    }
+    boardState.push_back(cellVec);
+  }
 }
 
 bool BattleShip::Board::canPlaceShipAt(const ShipPlacement& shipPlacement) const {
